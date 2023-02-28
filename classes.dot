@@ -1,0 +1,8 @@
+digraph "classes" {
+rankdir=BT
+charset="utf-8"
+"musiclabsite.models.Album" [color="black", fontcolor="black", label="{Album|author : ForeignKey\limage : ImageField\lname : CharField\l|}", shape="record", style="solid"];
+"musiclabsite.models.Author" [color="black", fontcolor="black", label="{Author|description : CharField\limage : ImageField\lname : CharField\lurl : URLField\l|}", shape="record", style="solid"];
+"musiclabsite.models.Playlist" [color="black", fontcolor="black", label="{Playlist|image : ImageField\lname : CharField\l|}", shape="record", style="solid"];
+"musiclabsite.models.Song" [color="black", fontcolor="black", label="{Song|album : ForeignKey\lauthor : ForeignKey\limage : ImageField\lname : CharField\lplaylist : ForeignKey\l|}", shape="record", style="solid"];
+}
