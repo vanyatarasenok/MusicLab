@@ -129,7 +129,6 @@ env.bak/
 venv.bak/
 .idea/
 media/
-templates/
 
 # Spyder project settings
 .spyderproject
